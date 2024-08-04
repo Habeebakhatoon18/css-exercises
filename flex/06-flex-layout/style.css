@@ -6,18 +6,60 @@ body {
   overflow: hidden;
   font-family: Roboto, sans-serif;
 }
-
+.main{
+  justify-content: space-between;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.header{
+  margin: 0px 5px;
+  padding: 5px;
+  justify-self: flex-start;
+  display: flex;
+  justify-content: space-between;
+}
+.footer{
+  margin: 0px 5px;
+  background-color: #eeeeee;
+  padding: 5px;
+  justify-self: flex-end;
+  display: flex;
+  justify-content: space-between;
+}
 img {
   width: 600px;
 }
-
+a{
+  color: gray;
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+ul{
+  padding: 5px;
+  justify-content: space-between;
+  display: flex;
+  gap: 10px;
+}
+.content{
+  gap: 15px;
+  align-self: center;
+  justify-self: center;
+}
 button {
+  
+  padding: 10px;
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
   background: #eee;
 }
-
+.buttons{
+  display: flex;
+  justify-content: center;
+}
 input {
   border: 1px solid #ddd;
   border-radius: 16px;
